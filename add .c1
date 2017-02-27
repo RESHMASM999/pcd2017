@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+ int num1 , int num2 , res;
+ printf("\n enter the two numbers:");
+ scanf("%d %d",&num1,&num2);
+// call function sum with two 
+ res=sum(num1,num2);
+  printf("addition of two number is :");
+  return(0);
+  }
+ int sum(int num1,int num2){ 
+ int num3;
+ num3=num1+num2;
+ return(num3);
+ }
+ 
+ Enter two numbers: 12 15
+ Addition of two numbers is 27
+ 
+ 
+ 
